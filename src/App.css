@@ -1,0 +1,36 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*
+CONTENTS
+-------------------------
+COLORS
+GLOBAL
+NAV BAR
+
+
+
+
+*/
+/*COLORS
+-------------------------*/
+/*GLOBAL STYLES
+-------------------------*/
+.container {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  color: #A5A9AB;
+}
+/*NAV BAR
+-------------------------*/
+.nav {
+  margin-top: 40px;
+  font-weight: bold;
+}
+.container {
+  max-width: 1000px;
+}
