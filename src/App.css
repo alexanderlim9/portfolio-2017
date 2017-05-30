@@ -22,8 +22,10 @@ NAV BAR
 /*GLOBAL STYLES
 -------------------------*/
 .container {
-  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
-  color: #A5A9AB;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 16px;
+  color: #000;
+  opacity: .5;
 }
 /*NAV BAR
 -------------------------*/
