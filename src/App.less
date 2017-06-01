@@ -24,7 +24,7 @@ SPLASH
 -------------------------*/
 //@text-nav-color: #A5A9AB;
 @text-nav-color: #000;
-
+@col-padding: 6px;
 
 /*GLOBAL STYLES
 -------------------------*/
@@ -33,18 +33,19 @@ SPLASH
   font-size: 16px;
   color: @text-nav-color;
   opacity: .5;
-}
+  max-width: 1000px;
 
+  [class*='col-'] {
+    padding-left: @col-padding;
+    padding-right: @col-padding;
+  }
+}
 
 /*NAV BAR
 -------------------------*/
 .nav {
   margin-top: 40px;
   font-weight: bold;
-}
-
-.container {
-  max-width: 1000px;
 }
 
 /*SPLASH
@@ -54,9 +55,35 @@ SPLASH
   margin-top: 250px;
 }
 
+/*ABSTRACT
+-------------------------*/
 
+.abstract {
+  margin-top: 200px;
 
+  .row {
+    margin-bottom: 50px;
+  }
 
+  img {
+    width: 100%;
+    margin-bottom: -50px;
+  }
+
+  .text {
+    padding-left: 10px;
+
+    h1 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+  }
+}
 
 
 

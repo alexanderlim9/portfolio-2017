@@ -27,6 +27,11 @@ SPLASH
   font-size: 16px;
   color: #000;
   opacity: .5;
+  max-width: 1000px;
+}
+.container [class*='col-'] {
+  padding-left: 6px;
+  padding-right: 6px;
 }
 /*NAV BAR
 -------------------------*/
@@ -34,11 +39,30 @@ SPLASH
   margin-top: 40px;
   font-weight: bold;
 }
-.container {
-  max-width: 1000px;
-}
 /*SPLASH
 -------------------------*/
 .splash {
   margin-top: 250px;
+}
+/*ABSTRACT
+-------------------------*/
+.abstract {
+  margin-top: 200px;
+}
+.abstract .row {
+  margin-bottom: 50px;
+}
+.abstract img {
+  width: 100%;
+  margin-bottom: -50px;
+}
+.abstract .text {
+  padding-left: 10px;
+}
+.abstract .text h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.abstract .text p {
+  font-size: 14px;
 }
