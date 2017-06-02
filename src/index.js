@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Nav from './nav';
 import Splash from './splash';
 import Abstract from './abstract';
+import Work from './work';
 
 
 import registerServiceWorker from './registerServiceWorker';
@@ -10,7 +11,7 @@ import './index.css';
 
 ReactDOM.render(<Nav />, document.getElementById('nav'));
 ReactDOM.render(<Splash />, document.getElementById('splash'));
-ReactDOM.render(<Abstract />, document.getElementById('abstract'));
+ReactDOM.render(<Work />, document.getElementById('work'));
 
 registerServiceWorker();
 
