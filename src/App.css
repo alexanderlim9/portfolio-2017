@@ -11,6 +11,7 @@ CONTENTS
 -------------------------
 COLORS
 GLOBAL
+TYPOGRAPHY
 NAV BAR
 SPLASH
 ABSTRACT
@@ -26,25 +27,31 @@ WORK
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 16px;
   color: #000;
-  opacity: .5;
   max-width: 1000px;
 }
 .container [class*='col-'] {
   padding-left: 6px;
   padding-right: 6px;
 }
-.container .text h1 {
+/*TYPOGRAPHY
+-------------------------*/
+h1,
+h2,
+p {
+  opacity: .5;
+}
+h1 {
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
 }
-.container .text h2 {
+h2 {
   display: inline;
   font-size: 14px;
   font-style: italic;
   padding-left: 5px;
 }
-.container .text p {
+p {
   font-size: 14px;
   line-height: 17px;
 }
@@ -52,6 +59,9 @@ WORK
 -------------------------*/
 .nav {
   margin-top: 40px;
+}
+.nav p {
+  font-size: 16px;
   font-weight: bold;
 }
 .nav .row {
@@ -61,15 +71,13 @@ WORK
 /*SPLASH
 -------------------------*/
 .splash {
-  margin-top: 250px;
+  margin-top: 260px;
+  margin-bottom: 260px;
 }
 /*ABSTRACT
 -------------------------*/
 .abstract {
-  margin-top: 200px;
-}
-.abstract .row {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .abstract img {
   width: 100%;
@@ -89,11 +97,34 @@ WORK
   padding-bottom: 10px;
   width: 100%;
 }
-.project .prev {
+/*PROJECT NAV
+-------------------------*/
+.projectNav {
+  font-size: 14px;
+}
+.projectNav .prev {
   margin-top: 200px;
   float: left;
 }
-.project .next {
+.projectNav .next {
   margin-top: 200px;
   float: right;
+}
+/*SECTION TAB
+-------------------------*/
+.sectionTab .section-name {
+  position: absolute;
+  right: 50px;
+  padding-right: 15px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 45px;
+}
+.sectionTab .tab {
+  position: absolute;
+  right: 0px;
+  margin-top: -50px;
+  width: 50px;
+  height: 900px;
+  background-color: #C63737;
 }

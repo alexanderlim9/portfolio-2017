@@ -12,6 +12,7 @@ CONTENTS
 -------------------------
 COLORS
 GLOBAL
+TYPOGRAPHY
 NAV BAR
 SPLASH
 ABSTRACT
@@ -25,51 +26,56 @@ WORK
 //@text-nav-color: #A5A9AB;
 @text-nav-color: #000;
 @col-padding: 6px;
+@tab-width: 50px;
+@work-section: #C63737;
 
 /*GLOBAL STYLES
 -------------------------*/
-body {
-  //background-color: #834017;
-}
 .container {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 16px;
   color: @text-nav-color;
-  opacity: .5;
   max-width: 1000px;
 
   [class*='col-'] {
     padding-left: @col-padding;
     padding-right: @col-padding;
   }
+}
 
-  .text {
-    h1 {
-      display: inline-block;
-      font-size: 20px;
-      font-weight: bold;
-    }
+/*TYPOGRAPHY
+-------------------------*/
+h1, h2, p {
+  opacity: .5;
+}
 
-    h2 {
-      display: inline;
-      font-size: 14px;
-      font-style: italic;
-      padding-left: 5px;
-    }
+h1 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
 
-    p {
-      font-size: 14px;
-      line-height: 17px;
-    }
+h2 {
+  display: inline;
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 5px;
+}
 
-  }
+p {
+  font-size: 14px;
+  line-height: 17px;
 }
 
 /*NAV BAR
 -------------------------*/
 .nav {
   margin-top: 40px;
-  font-weight: bold;
+
+  p {
+    font-size: 16px;
+    font-weight: bold;
+  }
 
   .row {
     margin-left: 0px;
@@ -81,18 +87,16 @@ body {
 -------------------------*/
 
 .splash {
-  margin-top: 250px;
+  margin-top: 260px;
+  margin-bottom: 260px;
+
 }
 
 /*ABSTRACT
 -------------------------*/
 
 .abstract {
-  margin-top: 200px;
-
-  .row {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 50px;
 
   img {
     width: 100%;
@@ -117,6 +121,12 @@ body {
     padding-bottom: 10px;
     width: 100%;
   }
+}
+
+/*PROJECT NAV
+-------------------------*/
+.projectNav {
+  font-size: 14px;
 
   .prev {
     margin-top: 200px;
@@ -126,5 +136,31 @@ body {
   .next {
     margin-top: 200px;
     float: right;
+  }
+}
+
+/*SECTION TAB
+-------------------------*/
+
+.sectionTab {
+  .section-name {
+    position: absolute;
+    right: @tab-width;
+    padding-right: 15px;
+    margin-top: -50px;
+
+    font-weight: bold;
+    font-size: 45px;
+  }
+
+  .tab {
+    position: absolute;
+    right: 0px;
+    margin-top: -50px;
+
+    width: @tab-width;
+    height: 900px;
+    background-color: @work-section;
+
   }
 }
