@@ -29,7 +29,7 @@ WORK
 /*GLOBAL STYLES
 -------------------------*/
 body {
-  background-color: #834017;
+  //background-color: #834017;
 }
 .container {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
@@ -41,6 +41,27 @@ body {
   [class*='col-'] {
     padding-left: @col-padding;
     padding-right: @col-padding;
+  }
+
+  .text {
+    h1 {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    h2 {
+      display: inline;
+      font-size: 14px;
+      font-style: italic;
+      padding-left: 5px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 17px;
+    }
+
   }
 }
 
@@ -80,28 +101,30 @@ body {
 
   .text {
     padding-left: 10px;
-
-    h1 {
-      display: inline-block;
-      font-size: 20px;
-      font-weight: bold;
-    }
-
-    h2 {
-      display: inline;
-      font-size: 14px;
-      font-style: italic;
-      padding-left: 5px;
-    }
-
-    p {
-      font-size: 14px;
-    }
-
   }
 }
 
 /*WORK
 -------------------------*/
 
+/*PROJECT
+-------------------------*/
 
+.project {
+  margin-top: 150px;
+
+  img {
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .prev {
+    margin-top: 200px;
+    float: left;
+  }
+
+  .next {
+    margin-top: 200px;
+    float: right;
+  }
+}

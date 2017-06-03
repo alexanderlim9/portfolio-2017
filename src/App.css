@@ -22,9 +22,6 @@ WORK
 -------------------------*/
 /*GLOBAL STYLES
 -------------------------*/
-body {
-  background-color: #834017;
-}
 .container {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 16px;
@@ -35,6 +32,21 @@ body {
 .container [class*='col-'] {
   padding-left: 6px;
   padding-right: 6px;
+}
+.container .text h1 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container .text h2 {
+  display: inline;
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 5px;
+}
+.container .text p {
+  font-size: 14px;
+  line-height: 17px;
 }
 /*NAV BAR
 -------------------------*/
@@ -66,19 +78,22 @@ body {
 .abstract .text {
   padding-left: 10px;
 }
-.abstract .text h1 {
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-}
-.abstract .text h2 {
-  display: inline;
-  font-size: 14px;
-  font-style: italic;
-  padding-left: 5px;
-}
-.abstract .text p {
-  font-size: 14px;
-}
 /*WORK
 -------------------------*/
+/*PROJECT
+-------------------------*/
+.project {
+  margin-top: 150px;
+}
+.project img {
+  padding-bottom: 10px;
+  width: 100%;
+}
+.project .prev {
+  margin-top: 200px;
+  float: left;
+}
+.project .next {
+  margin-top: 200px;
+  float: right;
+}
