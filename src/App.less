@@ -17,6 +17,12 @@ NAV BAR
 SPLASH
 ABSTRACT
 WORK
+PROJECT
+PROJECT NAV
+SECTION TAB
+ABOUT
+RESUME
+CONTACT
 
 
 */
@@ -28,6 +34,7 @@ WORK
 @col-padding: 6px;
 @tab-width: 50px;
 @work-section: #C63737;
+@section-margin-bot: 200px;
 
 /*GLOBAL STYLES
 -------------------------*/
@@ -40,6 +47,11 @@ WORK
   [class*='col-'] {
     padding-left: @col-padding;
     padding-right: @col-padding;
+  }
+
+  img {
+    width: 100%;
+    padding-bottom: 10px;
   }
 }
 
@@ -70,17 +82,14 @@ p {
 /*NAV BAR
 -------------------------*/
 .nav {
-  margin-top: 40px;
+  margin-top: 30px;
 
   p {
     font-size: 16px;
     font-weight: bold;
   }
 
-  .row {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+  padding: 0px;
 }
 
 /*SPLASH
@@ -99,7 +108,7 @@ p {
   margin-bottom: 50px;
 
   img {
-    width: 100%;
+    padding: 0px;
     margin-bottom: -50px;
   }
 
@@ -110,17 +119,14 @@ p {
 
 /*WORK
 -------------------------*/
-
+.work {
+  margin-bottom: @section-margin-bot;
+}
 /*PROJECT
 -------------------------*/
 
 .project {
   margin-top: 150px;
-
-  img {
-    padding-bottom: 10px;
-    width: 100%;
-  }
 }
 
 /*PROJECT NAV
@@ -160,7 +166,38 @@ p {
 
     width: @tab-width;
     height: 900px;
-    background-color: @work-section;
 
+    //background-color: @work-section;
+
+  }
+}
+
+/*ABOUT
+-------------------------*/
+.about {
+  margin-bottom: @section-margin-bot;
+
+  #bio {
+    margin-top: 30px;
+  }
+}
+
+/*RESUME
+-------------------------*/
+.resume {
+  margin-bottom: @section-margin-bot;
+
+  #resume-section {
+    margin-top: 30px;
+  }
+}
+
+/*CONTACT
+-------------------------*/
+.contact {
+  margin-bottom: @section-margin-bot;
+
+  #contact-section {
+    margin-top: 150px;
   }
 }

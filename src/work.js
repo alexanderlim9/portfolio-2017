@@ -8,7 +8,7 @@ class Work extends Component {
   render() {
     return (
       <div className="work">
-        <SectionTab/>
+        <SectionTab title="Work" color="#C63737"/>
         <div className="container">
           <div className="row">
             <Abstract title="100 Years of Movies"
