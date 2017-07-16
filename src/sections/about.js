@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
+import '../App.css';
 
-import SectionTab from "./sectionTab";
+import SectionTab from "../sectionTab";
 
 class About extends Component {
   render() {
@@ -11,9 +11,9 @@ class About extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-6">
-              <img src={require('./wireframe_box.png')}/>
-              <img src={require('./wireframe_box.png')}/>
-              <img src={require('./wireframe_box.png')}/>
+              <img src={require('../wireframe_box.png')}/>
+              <img src={require('../wireframe_box.png')}/>
+              <img src={require('../wireframe_box.png')}/>
 
             </div>
             <div className="col-xs-4 col-xs-offset-1">

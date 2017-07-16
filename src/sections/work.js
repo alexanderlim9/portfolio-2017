@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import './App.css';
+import '../App.css';
 
-import Abstract from './abstract';
-import SectionTab from "./sectionTab";
+import Abstract from '../abstract';
+import SectionTab from "../sectionTab";
 
 class Work extends Component {
   render() {

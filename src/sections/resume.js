@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
+import '../App.css';
 
-import SectionTab from "./sectionTab";
+import SectionTab from "../sectionTab";
 
 class Resume extends Component {
   render() {
