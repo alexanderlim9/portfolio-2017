@@ -4,9 +4,11 @@ import './App.css';
 class Abstract extends Component {
   render() {
     return (
-      <div className="col-xs-5">
-        <div className="abstract">
-          <img src={require("./wireframe_box.png")}/>
+      <div className="abstract">
+        <div className="col-xs-6">
+          <img id="abstract-cover" src={require("./wireframe_box.png")}/>
+        </div>
+        <div className="col-xs-6">
           <div className="text">
             <h1>{this.props.title}</h1>
             <h2>{this.props.type}</h2>
@@ -15,6 +17,7 @@ class Abstract extends Component {
             </p>
           </div>
         </div>
+
       </div>
     );
   }

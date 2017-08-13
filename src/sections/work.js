@@ -14,14 +14,8 @@ class Work extends Component {
             <Abstract title="100 Years of Movies"
                       type="Data Vis"
                       blurb="A visualization of 100 years of movie ratings."/>
-            <Abstract/>
           </div>
           <div className="row">
-            <Abstract/>
-            <Abstract/>
-          </div>
-          <div className="row">
-            <Abstract/>
             <Abstract/>
           </div>
         </div>

@@ -34,7 +34,7 @@ CONTACT
 @col-padding: 6px;
 @tab-width: 50px;
 @work-section: #C63737;
-@section-margin-bot: 200px;
+@section-margin-bot: 250px;
 
 /*GLOBAL STYLES
 -------------------------*/
@@ -105,14 +105,17 @@ p {
 -------------------------*/
 
 .abstract {
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 
   img {
     padding: 0px;
     margin-bottom: -50px;
+    height: 200px;
   }
 
   .text {
+    margin-top: 50px;
     padding-left: 10px;
   }
 }
@@ -121,6 +124,10 @@ p {
 -------------------------*/
 .work {
   margin-bottom: @section-margin-bot;
+
+  .row {
+    margin-bottom: 100px;
+  }
 }
 /*PROJECT
 -------------------------*/
@@ -165,7 +172,7 @@ p {
     margin-top: -50px;
 
     width: @tab-width;
-    height: 900px;
+    height: 750px;
 
     //background-color: @work-section;
 
