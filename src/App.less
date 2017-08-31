@@ -24,7 +24,6 @@ ABOUT
 RESUME
 CONTACT
 
-
 */
 
 /*COLORS
@@ -39,9 +38,9 @@ CONTACT
 /*GLOBAL STYLES
 -------------------------*/
 .container {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 16px;
-  color: @text-nav-color;
+  //font-family: 'Georgia', 'Helvetica', 'Arial', 'sans-serif';
+  //font-size: 16px;
+  //color: @text-nav-color;
   max-width: 1000px;
 
   [class*='col-'] {
@@ -57,26 +56,74 @@ CONTACT
 
 /*TYPOGRAPHY
 -------------------------*/
-h1, h2, p {
-  opacity: .5;
+
+//@font-face {
+//  font-family: 'Proxima Nova Extra Condensed';
+//  src: url('fonts/EntezareZohoor2.eot'), url('fonts/EntezareZohoor2.ttf') format('truetype'), url('fonts/EntezareZohoor2.svg') format('svg');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+
+h1, h2, h3, h4, h5, h6 {
+
+  //opacity: .9;
 }
 
 h1 {
+  font-family: "Proxima Nova Extra Condensed";
+  text-transform: uppercase;
   display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 5em;
+  font-weight: 700;
 }
 
 h2 {
-  display: inline;
-  font-size: 14px;
+  font-family: "PT Serif";
+  font-size: 1.5em;
+  font-weight: bold;
   font-style: italic;
-  padding-left: 5px;
+  text-align: right;
+  opacity: .66;
 }
 
 p {
+  font-family: "PT Serif";
   font-size: 14px;
-  line-height: 17px;
+  //line-height: 17px;
+}
+
+/*GREETING
+-------------------------*/
+.greeting {
+
+  h1 {
+    margin-top: 200px;
+  }
+  p {
+    padding-bottom: 20px;
+    font-size: 3em;
+  }
+}
+
+
+/*BUTTONS + LABELS
+-------------------------*/
+button {
+  font-family: "PT Serif";
+  font-size: 1.5em;
+  //font-weight: bold;
+  border: none;
+  background-color: unset;
+}
+
+label {
+  font-family: "PT Serif";
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: right;
+  padding-top: 2px;
+  opacity: .66;
 }
 
 /*NAV BAR

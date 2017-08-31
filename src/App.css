@@ -23,16 +23,12 @@ ABOUT
 RESUME
 CONTACT
 
-
 */
 /*COLORS
 -------------------------*/
 /*GLOBAL STYLES
 -------------------------*/
 .container {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 16px;
-  color: #000;
   max-width: 1000px;
 }
 .container [class*='col-'] {
@@ -45,25 +41,50 @@ CONTACT
 }
 /*TYPOGRAPHY
 -------------------------*/
-h1,
-h2,
-p {
-  opacity: .5;
-}
 h1 {
+  font-family: "Proxima Nova Extra Condensed";
+  text-transform: uppercase;
   display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 5em;
+  font-weight: 700;
 }
 h2 {
-  display: inline;
-  font-size: 14px;
+  font-family: "PT Serif";
+  font-size: 1.5em;
+  font-weight: bold;
   font-style: italic;
-  padding-left: 5px;
+  text-align: right;
+  opacity: .66;
 }
 p {
+  font-family: "PT Serif";
   font-size: 14px;
-  line-height: 17px;
+}
+/*GREETING
+-------------------------*/
+.greeting h1 {
+  margin-top: 200px;
+}
+.greeting p {
+  padding-bottom: 20px;
+  font-size: 3em;
+}
+/*BUTTONS + LABELS
+-------------------------*/
+button {
+  font-family: "PT Serif";
+  font-size: 1.5em;
+  border: none;
+  background-color: unset;
+}
+label {
+  font-family: "PT Serif";
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: right;
+  padding-top: 2px;
+  opacity: .66;
 }
 /*NAV BAR
 -------------------------*/
