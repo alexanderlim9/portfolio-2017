@@ -29,6 +29,7 @@ CONTACT
 /*GLOBAL STYLES
 -------------------------*/
 .container {
+  font-size: 14px;
   max-width: 1000px;
 }
 .container [class*='col-'] {
@@ -42,40 +43,54 @@ CONTACT
 /*TYPOGRAPHY
 -------------------------*/
 h1 {
-  font-family: "Proxima Nova Extra Condensed";
+  font-family: "proxima-nova-extra-condensed";
   text-transform: uppercase;
   display: inline-block;
   font-size: 5em;
   font-weight: 700;
+  margin-top: 200px;
 }
 h2 {
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
   font-size: 1.5em;
   font-weight: bold;
   font-style: italic;
   text-align: right;
-  opacity: .66;
+  opacity: 0.5;
 }
 p {
-  font-family: "PT Serif";
-  font-size: 14px;
+  font-family: "PT Serif", serif;
+  font-size: 3em;
+  margin-bottom: 50px;
 }
 /*GREETING
 -------------------------*/
-.greeting h1 {
-  margin-top: 200px;
+/*ABOUT
+-------------------------*/
+.about .bio p {
+  margin-bottom: 10px;
 }
-.greeting p {
-  padding-bottom: 20px;
-  font-size: 3em;
+.about .bio .bio-copy {
+  font-size: 1.5em;
+}
+.about .bio-section {
+  margin-top: 50px;
 }
 /*BUTTONS + LABELS
 -------------------------*/
 button {
   font-family: "PT Serif";
   font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
   border: none;
   background-color: unset;
+  margin-bottom: 3px;
+  opacity: 0.5;
+}
+button:hover {
+  text-decoration: underline;
 }
 label {
   font-family: "PT Serif";
@@ -83,8 +98,9 @@ label {
   font-weight: bold;
   font-style: italic;
   text-align: right;
+  float: right;
   padding-top: 2px;
-  opacity: .66;
+  opacity: 0.5;
 }
 /*NAV BAR
 -------------------------*/
