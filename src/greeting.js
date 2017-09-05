@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import './App.css';
 
 class Greeting extends Component {
@@ -17,7 +18,7 @@ class Greeting extends Component {
               <label>Let me tell you all about...</label>
             </div>
             <div className="col-xs-5">
-              <button>myself</button>
+              <button><Link to="/about">myself</Link></button>
             </div>
           </div>
           <div className="row">
