@@ -23,7 +23,7 @@ class Greeting extends Component {
           </div>
           <div className="row">
             <div className="col-xs-5 col-xs-offset-7">
-              <button>what I'm passionate about</button>
+              <button><Link to="/values">what I'm passionate about</Link></button>
             </div>
           </div>
           <div className="row">

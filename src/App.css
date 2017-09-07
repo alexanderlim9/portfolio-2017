@@ -63,15 +63,15 @@ p {
   font-size: 3em;
   margin-bottom: 50px;
 }
+.copy {
+  font-size: 1.5em;
+}
 /*GREETING
 -------------------------*/
 /*ABOUT
 -------------------------*/
 .about .bio p {
   margin-bottom: 10px;
-}
-.about .bio .bio-copy {
-  font-size: 1.5em;
 }
 .about .bio-section {
   margin-top: 50px;

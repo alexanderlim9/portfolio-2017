@@ -16,16 +16,16 @@ class About extends Component {
         <div className="row bio">
           <div className="col-xs-4">
             <p>I'm a <u>student</u>,</p>
-            <p className="bio-copy">I study Computer Science & Interaction Design at Northeastern
+            <p className="copy">I study Computer Science & Interaction Design at Northeastern
               University.</p>
           </div>
           <div className="col-xs-4">
             <p>I'm a <u>developer</u>,</p>
-            <p className="bio-copy">I like solving problems through technology.</p>
+            <p className="copy">I like solving problems through technology.</p>
           </div>
           <div className="col-xs-4">
             <p>I'm a <u>designer</u>,</p>
-            <p className="bio-copy">I value the process required to reach solutions.</p>
+            <p className="copy">I value the process required to reach solutions.</p>
           </div>
         </div>
         <div className="row bio-section">
