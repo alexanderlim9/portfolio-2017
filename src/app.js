@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 import Greeting from './greeting';
-import About from './about';
 
 
 class App extends Component {

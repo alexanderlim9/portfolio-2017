@@ -36,6 +36,11 @@ class Greeting extends Component {
               <button>where I've worked</button>
             </div>
           </div>
+          <div className="row">
+            <div className="col-xs-5 col-xs-offset-7">
+              <button><Link to="/resume">my resume</Link></button>
+            </div>
+          </div>
         </div>
       </div>
     );
