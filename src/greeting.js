@@ -41,6 +41,11 @@ class Greeting extends Component {
               <button><Link to="/resume">my resume</Link></button>
             </div>
           </div>
+          <div className="row">
+            <div className="col-xs-12">
+              <p id="footer-note">*This site is very much a work in progress, but please enjoy what I have so far!</p>
+            </div>
+          </div>
         </div>
       </div>
     );
