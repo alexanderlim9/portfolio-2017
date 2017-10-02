@@ -11,14 +11,14 @@ class Resume extends Component {
         <div className="row">
           <div className="col-xs-12">
             <h1>
-              This is my resume
+              This is my resume,
             </h1>
-            <p>with all sorts of things I've done.</p>
+            <p>all about me&mdash;on one page.</p>
           </div>
         </div>
         <div className="row">
           <div className="col-xs-12">
-            <img id="resume-png" src={require("./resume-9-27-17.png")} alt="resume"/>
+            <img id="resume-png" src={require("./resume-10-2-17.png")} alt="resume"/>
           </div>
         </div>
       </div>
