@@ -42,8 +42,19 @@ class Greeting extends Component {
             </div>
           </div>
           <div className="row">
+            <div className="col-xs-5">
+              <button><a href="https://www.linkedin.com/in/alexander-lim/">Here's my LinkedIn</a></button>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xs-5">
+              <button><a href="https://github.com/alexanderlim9">Here's my Github</a></button>
+            </div>
+          </div>
+          <div className="row">
             <div className="col-xs-12">
-              <p id="footer-note">*This site is very much a work in progress, but please enjoy what I have so far!</p>
+              <p id="footer-note">*In the true spirit of Agile, this site is more of an MVP&mdash;it
+                doesn't totally work yet, but it's at least semi-functional for now.</p>
             </div>
           </div>
         </div>
