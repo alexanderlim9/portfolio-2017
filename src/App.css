@@ -44,6 +44,18 @@ CONTACT
   margin-top: 200px;
   padding-right: 30px;
 }
+.container .social-profiles {
+  margin-top: 60px;
+}
+.container .social-icon {
+  padding-right: 10px;
+}
+.container .social-icon i {
+  color: gray;
+}
+.container .social-icon i:hover {
+  color: lightgray;
+}
 /*TYPOGRAPHY
 -------------------------*/
 h1 {

@@ -21,11 +21,6 @@ class Greeting extends Component {
               <button><Link to="/about">myself</Link></button>
             </div>
           </div>
-          {/*<div className="row">*/}
-            {/*<div className="col-xs-5 col-xs-offset-7">*/}
-              {/*<button><Link to="/values">what I'm passionate about</Link></button>*/}
-            {/*</div>*/}
-          {/*</div>*/}
           <div className="row">
             <div className="col-xs-5 col-xs-offset-7">
               <button>the work I've done</button>
@@ -37,13 +32,13 @@ class Greeting extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-xs-5">
-              <button><a href="https://www.linkedin.com/in/alexander-lim/">Here's my LinkedIn</a></button>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xs-5">
-              <button><a href="https://github.com/alexanderlim9">Here's my Github</a></button>
+            <div className="col-xs-1 col-xs-offset-11">
+              <div className="social-profiles">
+                <a className="social-icon" target="_blank" href="https://www.linkedin.com/in/alexander-lim/">
+                  <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+                <a className="social-icon" target="_blank"  href="https://github.com/alexanderlim9">
+                  <i className="fa fa-github fa-lg" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
           <div className="row">
@@ -54,7 +49,8 @@ class Greeting extends Component {
           </div>
         </div>
       </div>
-    );
+    )
+      ;
   }
 }
 

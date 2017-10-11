@@ -20,7 +20,7 @@ class About extends Component {
             <p className="copy">
               I'm passionate about making information accessible and currently stepping into the
               field of data science. There's so much data out there, it's important not only to make
-              sense of it, but also to communicate it as well.
+              sense of it, but to communicate it as well.
             </p>
             <p className="copy">My multidisciplinary background in computer science, data science,
               and design allows me to approach problems differently. Empathy in design is one of my
