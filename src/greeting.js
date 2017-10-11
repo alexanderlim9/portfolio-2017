@@ -21,11 +21,11 @@ class Greeting extends Component {
               <button><Link to="/about">myself</Link></button>
             </div>
           </div>
-          <div className="row">
-            <div className="col-xs-5 col-xs-offset-7">
-              <button><Link to="/values">what I'm passionate about</Link></button>
-            </div>
-          </div>
+          {/*<div className="row">*/}
+            {/*<div className="col-xs-5 col-xs-offset-7">*/}
+              {/*<button><Link to="/values">what I'm passionate about</Link></button>*/}
+            {/*</div>*/}
+          {/*</div>*/}
           <div className="row">
             <div className="col-xs-5 col-xs-offset-7">
               <button>the projects I've done so far</button>
