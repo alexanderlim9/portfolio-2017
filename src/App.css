@@ -46,6 +46,7 @@ CONTACT
 }
 .container .social-profiles {
   margin-top: 60px;
+  float: right;
 }
 .container .social-icon {
   padding-right: 10px;

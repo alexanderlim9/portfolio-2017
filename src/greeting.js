@@ -32,12 +32,14 @@ class Greeting extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-xs-1 col-xs-offset-11">
+            <div className="col-xs-2 col-xs-offset-10">
               <div className="social-profiles">
                 <a className="social-icon" target="_blank" href="https://www.linkedin.com/in/alexander-lim/">
                   <i className="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
                 <a className="social-icon" target="_blank"  href="https://github.com/alexanderlim9">
                   <i className="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                <a className="social-icon" target="_blank"  href="https://www.instagram.com/phantomlim9/?hl=en">
+                  <i className="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
