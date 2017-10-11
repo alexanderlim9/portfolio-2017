@@ -4,7 +4,6 @@ import {BrowserRouter, Route} from 'react-router-dom';
 
 import App from './app';
 import About from './about';
-import Values from './values';
 import Resume from './resume';
 
 
@@ -12,11 +11,10 @@ import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
 ReactDOM.render((
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/portfolio">
     <div>
       <Route path="/" component={App}/>
       <Route path="/about" component={About}/>
-      <Route path="/values" component={Values}/>
       <Route path="/resume" component={Resume}/>
     </div>
   </BrowserRouter>
