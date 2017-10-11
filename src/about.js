@@ -23,7 +23,7 @@ class About extends Component {
               sense of it, but also to communicate it as well.
             </p>
             <p className="copy">My multidisciplinary background in computer science, data science,
-              and design allows me to approach problems differently. Empathy is design is one of my
+              and design allows me to approach problems differently. Empathy in design is one of my
               greatest values. I believe that building anything without considering your user is
               effort gone to waste.
             </p>

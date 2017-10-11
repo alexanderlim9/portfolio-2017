@@ -28,12 +28,7 @@ class Greeting extends Component {
           {/*</div>*/}
           <div className="row">
             <div className="col-xs-5 col-xs-offset-7">
-              <button>the projects I've done so far</button>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xs-5 col-xs-offset-7">
-              <button>where I've worked</button>
+              <button>the work I've done</button>
             </div>
           </div>
           <div className="row">
