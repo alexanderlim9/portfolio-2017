@@ -2,6 +2,19 @@ import React, {Component} from 'react';
 import './App.css';
 
 class About extends Component {
+  componentDidMount() {
+    this.scrollToTop()
+  }
+
+  scrollToTop() {
+    var i = 2;
+    var int = setInterval(function () {
+      window.scrollTo(0, i);
+      i += (800 - i)/100 + .5;
+      if (i > 800) clearInterval(int);
+    }, 1);
+  }
+
   render() {
     return (
       <div className="container about">
