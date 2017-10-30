@@ -24,7 +24,7 @@ class Resume extends Component {
       <div className="container about">
         <div className="row">
           <div className="col-xs-12">
-            <img id="resume-png" src={require("./resume-10-8-17.png")} alt="resume"/>
+            <img id="resume-png" src={require("./resume-10-30-17.png")} alt="resume"/>
           </div>
         </div>
       </div>

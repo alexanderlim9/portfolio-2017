@@ -13,16 +13,7 @@ CONTENTS
 COLORS
 GLOBAL
 TYPOGRAPHY
-NAV BAR
-SPLASH
-ABSTRACT
-WORK
-PROJECT
-PROJECT NAV
-SECTION TAB
 ABOUT
-RESUME
-CONTACT
 
 */
 
@@ -42,7 +33,6 @@ CONTACT
 .container {
   //font-family: 'Georgia', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 14px;
-  //color: @text-nav-color;
   max-width: 1000px;
 
   [class*='col-'] {
@@ -82,11 +72,6 @@ CONTACT
 /*TYPOGRAPHY
 -------------------------*/
 
-h1, h2, h3, h4, h5, h6 {
-
-  //opacity: .9;
-}
-
 h1 {
   //font-family: "Proxima Nova Extra Condensed";
   font-family: "proxima-nova-extra-condensed";
@@ -110,8 +95,6 @@ p {
   font-family: "PT Serif", serif;
   font-size: 3em;
   margin-bottom: 50px;
-  //font-size: 14px;
-  //line-height: 17px;
 }
 
 .copy {
@@ -126,25 +109,10 @@ p {
   opacity: .33;
 }
 
-/*GREETING
--------------------------*/
-.greeting {
-
-  //h1 {
-  //  margin-top: 200px;
-  //}
-  p {
-    //margin-bottom: 50px;
-    //font-size: 3em;
-  }
-}
-
 /*ABOUT
 -------------------------*/
 .about {
-  //p {
-  //  margin-bottom: 50px;
-  //}
+  margin-bottom: @section-margin-bot;
 
   .bio {
     p {
@@ -152,8 +120,13 @@ p {
     }
   }
 
-  .bio-section {
-    margin-top: 50px;
+  #tesselate {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  #bio-personal {
+    margin-top: 120px;
   }
 }
 
@@ -166,9 +139,6 @@ button {
   font-style: italic;
   text-align: left;
   border: none;
-  //border-width: 2px;
-  //border-color: darkgray;
-  //border-radius: 5px;
   background-color: unset;
   margin-bottom: 3px;
   opacity: @text-opacity;
@@ -187,135 +157,4 @@ label {
   float: right;
   padding-top: 2px;
   opacity: @text-opacity;
-}
-
-/*NAV BAR
--------------------------*/
-.nav {
-  margin-top: 30px;
-
-  p {
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  padding: 0px;
-}
-
-/*SPLASH
--------------------------*/
-
-.splash {
-  margin-top: 260px;
-  margin-bottom: 260px;
-
-}
-
-/*ABSTRACT
--------------------------*/
-
-.abstract {
-  margin-top: 50px;
-  margin-bottom: 30px;
-
-  img {
-    padding: 0px;
-    margin-bottom: -50px;
-    height: 200px;
-  }
-
-  .text {
-    margin-top: 50px;
-    padding-left: 10px;
-  }
-}
-
-/*WORK
--------------------------*/
-.work {
-  margin-bottom: @section-margin-bot;
-
-  .row {
-    margin-bottom: 100px;
-  }
-}
-
-/*PROJECT
--------------------------*/
-
-.project {
-  margin-top: 150px;
-}
-
-/*PROJECT NAV
--------------------------*/
-.projectNav {
-  font-size: 14px;
-
-  .prev {
-    margin-top: 200px;
-    float: left;
-  }
-
-  .next {
-    margin-top: 200px;
-    float: right;
-  }
-}
-
-/*SECTION TAB
--------------------------*/
-
-.sectionTab {
-  .section-name {
-    position: absolute;
-    right: @tab-width;
-    padding-right: 15px;
-    margin-top: -50px;
-
-    font-weight: bold;
-    font-size: 45px;
-  }
-
-  .tab {
-    position: absolute;
-    right: 0px;
-    margin-top: -50px;
-
-    width: @tab-width;
-    height: 750px;
-
-    //background-color: @work-section;
-
-  }
-}
-
-/*ABOUT
--------------------------*/
-.about {
-  margin-bottom: @section-margin-bot;
-
-  #bio {
-    margin-top: 30px;
-  }
-}
-
-/*RESUME
--------------------------*/
-.resume {
-  margin-bottom: @section-margin-bot;
-
-  #resume-section {
-    margin-top: 30px;
-  }
-}
-
-/*CONTACT
--------------------------*/
-.contact {
-  margin-bottom: @section-margin-bot;
-
-  #contact-section {
-    margin-top: 150px;
-  }
 }

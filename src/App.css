@@ -12,16 +12,7 @@ CONTENTS
 COLORS
 GLOBAL
 TYPOGRAPHY
-NAV BAR
-SPLASH
-ABSTRACT
-WORK
-PROJECT
-PROJECT NAV
-SECTION TAB
 ABOUT
-RESUME
-CONTACT
 
 */
 /*COLORS
@@ -90,15 +81,20 @@ p {
   text-align: center;
   opacity: .33;
 }
-/*GREETING
--------------------------*/
 /*ABOUT
 -------------------------*/
+.about {
+  margin-bottom: 250px;
+}
 .about .bio p {
   margin-bottom: 10px;
 }
-.about .bio-section {
-  margin-top: 50px;
+.about #tesselate {
+  color: inherit;
+  text-decoration: underline;
+}
+.about #bio-personal {
+  margin-top: 120px;
 }
 /*BUTTONS + LABELS
 -------------------------*/
@@ -125,102 +121,4 @@ label {
   float: right;
   padding-top: 2px;
   opacity: 0.5;
-}
-/*NAV BAR
--------------------------*/
-.nav {
-  margin-top: 30px;
-  padding: 0px;
-}
-.nav p {
-  font-size: 16px;
-  font-weight: bold;
-}
-/*SPLASH
--------------------------*/
-.splash {
-  margin-top: 260px;
-  margin-bottom: 260px;
-}
-/*ABSTRACT
--------------------------*/
-.abstract {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-.abstract img {
-  padding: 0px;
-  margin-bottom: -50px;
-  height: 200px;
-}
-.abstract .text {
-  margin-top: 50px;
-  padding-left: 10px;
-}
-/*WORK
--------------------------*/
-.work {
-  margin-bottom: 250px;
-}
-.work .row {
-  margin-bottom: 100px;
-}
-/*PROJECT
--------------------------*/
-.project {
-  margin-top: 150px;
-}
-/*PROJECT NAV
--------------------------*/
-.projectNav {
-  font-size: 14px;
-}
-.projectNav .prev {
-  margin-top: 200px;
-  float: left;
-}
-.projectNav .next {
-  margin-top: 200px;
-  float: right;
-}
-/*SECTION TAB
--------------------------*/
-.sectionTab .section-name {
-  position: absolute;
-  right: 50px;
-  padding-right: 15px;
-  margin-top: -50px;
-  font-weight: bold;
-  font-size: 45px;
-}
-.sectionTab .tab {
-  position: absolute;
-  right: 0px;
-  margin-top: -50px;
-  width: 50px;
-  height: 750px;
-}
-/*ABOUT
--------------------------*/
-.about {
-  margin-bottom: 250px;
-}
-.about #bio {
-  margin-top: 30px;
-}
-/*RESUME
--------------------------*/
-.resume {
-  margin-bottom: 250px;
-}
-.resume #resume-section {
-  margin-top: 30px;
-}
-/*CONTACT
--------------------------*/
-.contact {
-  margin-bottom: 250px;
-}
-.contact #contact-section {
-  margin-top: 150px;
 }
