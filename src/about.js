@@ -35,28 +35,33 @@ class About extends Component {
               field of data science. There's so much data out there, it's important not only to make
               sense of it, but to communicate it as well.
             </p>
-            <p className="copy">My multidisciplinary background in computer science, data science,
-              and design allows me to approach problems differently. Empathy in design is one of my
-              greatest values. I believe that building anything without considering your user is
-              effort gone to waste.
+            <p className="copy">I wear a lot of different hats and I think with all of them on, but
+              above all, I value empathy in design. I believe that building anything without
+              considering your user is effort gone to waste.
+            </p>
+            <p className="copy">
+              Right now, my goal is to become a better web developer, but at any given moment you
+              can find me in awe over trains, typography, or&nbsp;
+              <a target="_blank" id="tesselate" href="https://soundcloud.com/alt-j/03-tessellate">
+                Tessellate</a> by Alt-j.
             </p>
           </div>
         </div>
         {/*<div className="row">*/}
-          {/*<div className="col-xs-8 bio">*/}
-            {/*<div id="bio-personal">*/}
-              {/*<p className="copy">There are many things that define me as an individual. I'm proud*/}
-                {/*of my identity as both an Asian-American and as a member of the LGBTQ+*/}
-                {/*community. As such, I value diversity and inclusivity in the workplace and beyond.*/}
-              {/*</p>*/}
-              {/*<p className="copy">*/}
-                {/*When I'm not sitting behind a screen, you can find me running around Boston*/}
-                {/*Ask me how much I love trains, typography, or&nbsp;*/}
-                {/*<a target="_blank" id="tesselate" href="https://soundcloud.com/alt-j/03-tessellate">*/}
-                  {/*Tessellate</a> by Alt-j.*/}
-              {/*</p>*/}
-            {/*</div>*/}
-          {/*</div>*/}
+        {/*<div className="col-xs-8 bio">*/}
+        {/*<div id="bio-personal">*/}
+        {/*<p className="copy">There are many things that define me as an individual. I'm proud*/}
+        {/*of my identity as both an Asian-American and as a member of the LGBTQ+*/}
+        {/*community. As such, I value diversity and inclusivity in the workplace and beyond.*/}
+        {/*</p>*/}
+        {/*<p className="copy">*/}
+        {/*When I'm not sitting behind a screen, you can find me running around Boston*/}
+        {/*Ask me how much I love trains, typography, or&nbsp;*/}
+        {/*<a target="_blank" id="tesselate" href="https://soundcloud.com/alt-j/03-tessellate">*/}
+        {/*Tessellate</a> by Alt-j.*/}
+        {/*</p>*/}
+        {/*</div>*/}
+        {/*</div>*/}
         {/*</div>*/}
       </div>
     );
